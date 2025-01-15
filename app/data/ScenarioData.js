@@ -1,6 +1,6 @@
 const scenarioData = [
     {
-      image: '/scene1-img.png',
+      image: '/background.png',
       explanation: 'You received a salary of $3000. What will you do next?',
     question: 'How much should you save from your salary?',
     options: ['20%', '30%', '50%', '10%'], // Removed empty strings
