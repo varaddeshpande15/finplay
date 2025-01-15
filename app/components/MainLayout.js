@@ -47,9 +47,9 @@ const MainMenu = () => {
 
       {/* Right Image */}
       <img
-        src="/scene1-img.png"
+        src="/character-img.jpg"
         alt="Character"
-        className="absolute right-52 top-1/2 transform -translate-y-1/2 max-h-[70%]"
+        className="absolute right-52 rounded-2xl top-1/2 transform -translate-y-1/2 max-h-[70%]"
       />
         {showGameSelection && (
   <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
@@ -59,8 +59,8 @@ const MainMenu = () => {
         {[
           { name: "Guess the word", route: "puzzle-game", image: "/puzzle-game-img.png" },
           { name: "Scenario Game", route: "scenario-game", image: "/scenario-game-img.png" },
-          { name: "Drag & Drop Game", route: "drag-drop-game", image: "/background.png" },
-          { name: "Quiz Game", route: "quiz-game", image: "/background.png" },
+          { name: "Drag & Drop Game", route: "drag-drop-game", image: "/drag-drop-img.png" },
+          { name: "Quiz Game", route: "quiz-game", image: "/quiz-img.png" },
         ].map((game) => (
           <div
             key={game.route}

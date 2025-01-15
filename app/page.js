@@ -3,6 +3,7 @@ import QuizGame from './components/QuizGame'; // Import the FinanceGame componen
 import PuzzleGame from './components/PuzzleGame';
 import ScenarioContainer from './components/ScenarioContainer';
 import scenarioData from './data/ScenarioData';
+import MainMenu from './components/MainLayout';
 
 export default function Page() {
   return (
@@ -11,7 +12,7 @@ export default function Page() {
       {/* <DragAndDrop /> */}
       {/* <PuzzleGame /> */}
       {/* <ScenarioContainer scenarioData={scenarioData} /> */}
-
+      <MainMenu />
     </div>
   );
 }

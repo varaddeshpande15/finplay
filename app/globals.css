@@ -16,6 +16,10 @@
   }
 }
 
+.font-game {
+  font-family: 'Press Start 2P', "cursive"
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -69,6 +73,8 @@ button {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
+
 
 button:hover {
   transform: scale(1.05); /* Slightly enlarge on hover */
