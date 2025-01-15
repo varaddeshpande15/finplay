@@ -7,6 +7,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        breathing: {
+          '0%, 100%': { backgroundPosition: 'center 0px' },
+          '50%': { backgroundPosition: 'center 0.1px' },
+        },
+      },
+      animation: {
+        breathing: 'breathing 10s ease-in-out infinite',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -1,15 +1,16 @@
 
 
-import ScenarioContainer from './components/ScenarioContainer';
-import scenarioData from '../app/data/ScenarioData';
+// import ScenarioContainer from './components/ScenarioContainer';
+// import scenarioData from '../app/data/ScenarioData';
 
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-gray-100">
-      <ScenarioContainer scenarioData={scenarioData} />
-    </main>
-  );
-}
+// export default function Home() {
+//   return (
+//     <main className="min-h-screen bg-gray-100">
+//       <ScenarioContainer scenarioData={scenarioData} />
+//     </main>
+//   );
+// }
+
 
 
 // import PuzzleGame from './components/PuzzleGame'; // Import the PuzzleGame component
@@ -21,3 +22,11 @@ export default function Home() {
 //     </div>
 //   );
 // }
+
+
+// pages/index.js
+import MainMenu from "./components/MainLayout";
+
+export default function Home() {
+  return <MainMenu />;
+}
